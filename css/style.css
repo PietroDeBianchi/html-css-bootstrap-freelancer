@@ -1,0 +1,9 @@
+.debug .row {
+
+    border: 1px solid black;
+}
+
+.debug div[class*="col-"] {
+
+    border: 1px dashed red;
+}
