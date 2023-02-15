@@ -9,67 +9,86 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body class="debug pt-5">
-    
-        <nav class="navbar navbar-expand-md bg-body-tertiary fixed-top">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#"><strong>START BOOTSTRAP</strong></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <header>    
+        <nav class="navbar navbar-expand-md fixed-top">
+          <div class="container">
+            <a class="navbar-brand" href="#"><strong>START BOOTSTRAP</strong></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
-              </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled">Disabled</a>
-                    </li>
-                    </ul>
-                </div>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
             </div>
+          </div>
         </nav>
+      </header>
 
-        <div class="container text-center bg-primary mt-4">
-            <div class="row">
-              <div class="col">
-                JUMBO
+      <main>
+        <section id="ms-jumbo">
+          <div class="container text-center text-white mt-4">
+              <div class="row">
+                <div class="col-12">
+                  <div class="ms-jumbo-img">
+                      <img src="img/avatar.svg" alt="cabin">
+                  </div>
+                  <h2>START BOOTSTRAP</h2>
+                </div>
               </div>
-            </div>
-        </div>
+          </div>
+        </section>
 
-        <div class="container text-center">
-            <div class="row">
-              <div class="col-12">
-                text
+        <section id="ms-info-card">
+          <div class="container text-center">
+              <div class="row">
+                <div class="col-12">
+                  <h3>Portfolio</h3>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 p-1">
+                  <div class="ms-card">
+                    <img src="img/cabin.png" alt="cabin" class="img-fluid">
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 p-1">
+                  <div class="ms-card">
+                    <img src="img/cake.png" alt="cake" class="img-fluid">
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 p-1">
+                  <div class="ms-card">
+                    <img src="img/circus.png" alt="circus" class="img-fluid">
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 p-1">
+                  <div class="ms-card">
+                    <img src="img/game.png" alt="game" class="img-fluid">
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 p-1">
+                  <div class="ms-card">
+                    <img src="img/safe.png" alt="safe" class="img-fluid">
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 p-1">
+                  <div class="ms-card">
+                    <img src="img/submarine.png" alt="submarine" class="img-fluid">
+                  </div>
+                </div>
               </div>
-              <div class="col-12 col-md-6 col-lg-4 p-1">
-                img1
-              </div>
-              <div class="col-12 col-md-6 col-lg-4 p-1">
-                img2
-              </div>
-              <div class="col-12 col-md-6 col-lg-4 p-1">
-                img3
-              </div>
-              <div class="col-12 col-md-6 col-lg-4 p-1">
-                img4
-              </div>
-              <div class="col-12 col-md-6 col-lg-4 p-1">
-                img5
-              </div>
-              <div class="col-12 col-md-6 col-lg-4 p-1">
-                img6
-              </div>
-            </div>
-        </div>
+          </div>
+        </section>
 
-        <div class="container text-center bg-primary">
+        <section id="ms-info-text">
+          <div class="container text-center">
             <div class="row">
               <div class="col-12">
                 text
@@ -87,56 +106,59 @@
                 button
               </div>
             </div>
-        </div>
+          </div>
+        </section>
 
-        <div class="container">
+        <section id="ms-info-form">
+          <div class="container">
             <div class="row">
-                <div class="col-12 text-center">
-                    CONTACT ME 
-                </div>
-                <div class="mb-3">
-                    <label class="form-label">Your name</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="name">
-                </div>
-                <div class="mb-3">
-                    <label class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email">
-                </div>
-                <div class="mb-3">
-                    <label class="form-label">phone number</label>
-                    <input type="tel" class="form-control" id="exampleFormControlInput1" placeholder="number">
-                </div>
-                <div class="mb-3">
-                    <label class="form-label">Example textarea</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </div>
-                <div class="mb-3">
-                    <button type="submit" class="btn btn-primary mb-3">Send</button>
+              <form action="">
+                  <div class="col-12 text-center">
+                      CONTACT ME 
                   </div>
+                  <div class="mb-3">
+                      <label class="form-label" for="form-name">Your name</label>
+                      <input type="text" class="form-control" name="form-name" id="form-name" placeholder="name" required>
+                  </div>
+                  <div class="mb-3">
+                      <label class="form-mail">Email address</label>
+                      <input type="email" class="form-control" name="form-mail" id="form-mail" placeholder="email" required>
+                  </div>
+                  <div class="mb-3">
+                      <label class="form-label" for="form-phone">phone number</label>
+                      <input type="tel" class="form-control" name="form-phone" id="form-phone" placeholder="number" required>
+                  </div>
+                  <div class="mb-3">
+                      <label class="form-label" for="form-text">Example textarea</label>
+                      <textarea class="form-control" name="form-text" id="form-text" rows="3"></textarea>
+                  </div>
+                  <div class="mb-3">
+                      <button type="submit" class="btn btn-primary mb-3">Send</button>
+                  </div>
+              </form>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="container text-center text-light bg-dark">
+        <div class="row" id="ms-about-us">
+            <div class="col-12 col-md-4">
+              location
+            </div>
+            <div class="col-12 col-md-4">
+              socials
+            </div>
+            <div class="col-12 col-md-4">
+              info
             </div>
         </div>
-
-        <div class="container text-center text-light bg-dark-subtle">
-            <div class="row">
-              <div class="col-12 col-md-4">
-                location
-              </div>
-              <div class="col-12 col-md-4">
-                socials
-              </div>
-              <div class="col-12 col-md-4">
-                info
-              </div>
-            </div>
+        <div class="row" id="ms-copyright">
+          <div class="col-12">
+            Copyright your website 2019
+          </div>
         </div>
-
-        <footer class="container text-center text-light bg-dark">
-            <div class="row">
-                <div class="col-12">
-                   Copyright your website 2019
-                </div>
-            </div>
-        </footer>
+      </footer>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>

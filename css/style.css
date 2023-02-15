@@ -7,3 +7,40 @@
 
     border: 1px dashed red;
 }
+
+/* GENERAL STYLE */
+:root {
+    --ms-color-acqua: #58B99D;
+    --ms-color-navy: #3F536B;
+    --ms-color-dark: #303D4E;
+}
+
+#ms-copyright, .navbar {
+    background-color: var(--ms-color-dark);
+}
+
+#ms-jumbo .container, #ms-info-text .container {
+    background-color: var(--ms-color-acqua);
+}
+
+#ms-about-us {
+    background-color: var(--ms-color-navy);
+}
+
+/* NAVBAR STYLE */
+.navbar-nav .nav-link, .navbar-brand {
+    color: white !important;
+}
+
+
+/* MAIN STYLE */
+
+/* MAIN-SECTION JUMBO */
+.ms-jumbo-img {
+    width: 25%;
+    height: auto;
+    margin: auto;
+}
+
+/* MAIN-SECTION INFO-CARD */
+
